@@ -158,7 +158,7 @@ function findRecipeByName(userInput, recipeData) {
       const recipeName = recipe.name.toLowerCase();
       return recipeName.includes(userInput);
     })
-    .map((recipe) => recipe.id);
+    .map((recipe) => recipe);
   return storedRecipeIds;
 }
 
@@ -174,13 +174,12 @@ function findRecipeByIngredient(userInput, ingredientsData, recipeData) {
       storedIngredientIds.includes(ingredient.id)
     );
   });
-  const recipeIdsWithMatch = recipesWithMatch.map((recipe) => recipe.id);
-  console.log(recipeIdsWithMatch);
+  const recipeIdsWithMatch = recipesWithMatch.map((recipe) => recipe);
   return recipeIdsWithMatch;
 }
 
-function getUserInput() {
-  const userInput = document.querySelector(".input").value;
+function getUserInput(inputType) {
+  const userInput = document.querySelector(inputType).value;
   return userInput.toLowerCase();
 }
 

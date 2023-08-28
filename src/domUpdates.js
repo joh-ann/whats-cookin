@@ -48,7 +48,8 @@ const modalCost = document.querySelector(".modal-cost");
 const modalIngredients = document.querySelector(".modal-ingredients-list");
 const closeBtn = document.querySelector(".close-btn");
 const tagButtons = document.querySelector(".tag-buttons");
-const input = document.querySelector(".input");
+const inputName = document.querySelector(".input-name");
+const inputIngredient = document.querySelector(".input-ingredient");
 
 //ON PAGE LOAD
 document.addEventListener("DOMContentLoaded", (event) => {
@@ -91,17 +92,24 @@ function displayTags() {
 //   }
 // });
 
-input.addEventListener("keydown", (event) => {
+inputName.addEventListener("keydown", (event) => {
   if (event.key === "Enter") {
-    const userInput = getUserInput();
+    const userInput = getUserInput(".input-name");
     const recipeIdsByName = findRecipeByName(userInput, recipeData);
+    displayRecipes(recipeIdsByName);
+  }
+});
+
+inputIngredient.addEventListener("keydown", (event) => {
+  if (event.key === "Enter") {
+    const userInput = getUserInput(".input-ingredient");
+    console.log(userInput);
     const recipeIdsByIngredient = findRecipeByIngredient(
       userInput,
       ingredientsData,
       recipeData
     );
-    const combinedRecipeIds = [...recipeIdsByName, ...recipeIdsByIngredient];
-    displayRecipes(combinedRecipeIds);
+    displayRecipes(recipeIdsByIngredient);
   }
 });
 
@@ -141,7 +149,6 @@ tagButtons.addEventListener("click", (event) => {
 recipeDisplay.addEventListener("click", (event) => {
   let idClicked;
   idClicked = event.target.id;
-  console.log(event.target.id);
   if (idClicked.length === 6) {
     const directions = returnRecipeDirections(recipeData, idClicked);
     const cost = returnRecipeCost(recipeData, ingredientsData, idClicked);
