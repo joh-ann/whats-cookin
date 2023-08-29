@@ -1,18 +1,4 @@
-//NOTE: Data model and non-dom manipulating logic will live in this file.
-
-// import "./styles.css";
-// import apiCalls from "./apiCalls";
-// An example of how you tell webpack to use an image (also need to link to it in the index.html)
-// import "./images/turing-logo.png";
-// import ingredientsData from "./data/ingredients.js";
-
-//Example of one way to import functions from the domUpdates file. You will delete these examples.
-// import { exampleFunction1, exampleFunction2 } from "./domUpdates.js";
-
-// exampleFunction1("heather");
-// exampleFunction2("heather");
-
-// console.log(ingredientsData);
+import { currentUser } from "./scripts.js";
 
 function createFunction(array) {
   return array;
@@ -201,6 +187,20 @@ function deleteRecipe(savedArray, clickedId) {
   return savedArray;
 }
 
+function createRandomUser(array) {
+  const randIndex = Math.floor(Math.random() * array.length);
+
+  const randomUser = array.find((userEl) => {
+    return userEl.id == randIndex;
+  });
+  currentUser.name = randomUser.name;
+  currentUser.id = randomUser.id;
+  currentUser.recipesToCook = [];
+  console.log(currentUser);
+
+  return currentUser;
+}
+
 export {
   createFunction,
   returnFilteredListName,
@@ -218,4 +218,5 @@ export {
   getUserInput,
   saveRecipe,
   deleteRecipe,
+  createRandomUser,
 };
