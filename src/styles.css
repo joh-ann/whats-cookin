@@ -59,6 +59,10 @@ h1 {
 
   border-radius: 35px;
 }
+.recipe-card:hover {
+  transition: transform 0.3s ease-in-out;
+  transform: scale(1.1);
+}
 
 .title-recipe {
   width: 250px;
@@ -208,6 +212,10 @@ p {
   border: 2px dotted #d9dadd;
   border-radius: 5px;
 }
+.save-recipe-btn:hover {
+  transition: transform 0.3s ease-in-out;
+  transform: scale(1.1);
+}
 
 .input-name {
   background-color: #d9dadd;
@@ -249,11 +257,17 @@ p {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
+.view-saved:hover {
+  background-color: #cccccc;
+  transition: transform 0.3s ease-in-out;
+  transform: scale(1.1);
+}
+
 .tag-btn {
   display: inline-block;
   padding: 10px 20px;
   border: none;
-  background-color: #dddddd; /* Grey color */
+  background-color: #dddddd;
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 0.2s ease-in-out;
@@ -261,7 +275,9 @@ p {
 }
 
 .tag-btn:hover {
-  background-color: #cccccc; /* Slightly lighter grey color on hover */
+  background-color: #cccccc;
+  transition: transform 0.3s ease-in-out;
+  transform: scale(1.1);
 }
 
 .food-icon {
