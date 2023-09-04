@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@200;300;800;900&family=Manrope:wght@200;700;800&family=Merienda:wght@400;800&family=Poppins:wght@100&family=Sora:wght@200;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/src/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Manrope:wght@400;700&family=Poppins&display=swap" rel="stylesheet"><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600&family=Cedarville+Cursive&family=Inter:wght@100;200;300;400;500;700&family=Poppins:ital,wght@0,100;0,400;0,500;0,600;0,800;1,200&family=Quicksand:wght@300;400;500;600&family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <title>What's Cookin'?</title>
+  </head>
+  <body>
+    <!-- START OF HOME PAGE -->
+    <main>
+    <header>
+      <h1>What's Cookin'</h1>
+    </header>
+    <section class="nav">
+      <input class="input-name" type="text" placeholder="Search Recipe by Name.." />
+      <input class="input-ingredient" type="text" placeholder="Search Recipe by Ingredient.." />
+
+      <section class="tag-buttons">
+        <!-- tag buttons go here -->
+      </section>
+      <button class="view-saved">View Saved Recipes</button>
+    </section>
+    <section class="recipes">
+      <div class="recipe-card">
+        <!--recipe cards go here-->
+        <button class="save-recipe-btn">Save Recipe</button>
+       </div>
+       <div class="recipe-card">
+        <button class="save-recipe-btn">Save Recipe</button>
+      </div>
+      <div class="recipe-card">
+        <button class="save-recipe-btn">Save Recipe</button>
+        </div>
+        <div class="recipe-card">
+        <button class="save-recipe-btn">Save Recipe</button>
+        </div>
+      </div>
+    </section>
+    <!-- modal -->
+    <section class="modal">
+    <div class="modal-overlay">
+      <div class="modal-container">
+        <ul class = "modal-tags">
+        </ul>
+        <div class="modal-title-directions">
+         <h3 class="modal-title"></h3>
+         <h3 class="modal-directions">
+          Directions
+         </h3>
+         <h4 class="modal-directions-details">
+          <ul class="modal-directions-list">
+            <li></li>
+          </ul>
+         </h4>
+        </div>
+        <div class="modal-ingredients-cost">
+          <h3 class="modal-cost"></h3>
+          <h3 class="modal-ingredients">
+            ~Ingredients~
+          </h3>
+          <h4 class="modal-ingredients-details">
+          <ul class="modal-ingredients-list">
+          </ul>
+        </h4>
+        </div>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="close-btn">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+        
+      </div>
+    </div>
+  </section>
+        <!-- end of modal -->
+  </main>
+  <!-- END OF HOME PAGE -->
+   
+  </main>
+  <!-- END OF HOME PAGE -->
+  </body>
+  <!-- Do not include the scripts.js file here - it is done automatically by the webpack server -->
+  <script src="bundle.js"></script>
+</html>
