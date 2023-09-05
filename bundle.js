@@ -468,7 +468,7 @@ function displayTags(array) {
   const tagsArray = (0,_src_functions_js__WEBPACK_IMPORTED_MODULE_0__.returnListOfUniqueTags)(array);
   let tagsHtml = "";
   tagsArray.forEach((tagEl) => {
-    tagsHtml += `<div><img src="/images/${tagEl}.png" class="tag-btn" id="${tagEl}"><p>${tagEl}</p></div>
+    tagsHtml += `<div><img src="https://joh-ann.github.io/whats-cookin/images/${tagEl}.png" class="tag-btn" id="${tagEl}"><p>${tagEl}</p></div>
     `;
   });
   tagButtons.innerHTML = tagsHtml;
