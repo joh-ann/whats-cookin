@@ -949,7 +949,7 @@ function fetchCurrencies() {
     });
 }
 
-const fetchUsers = fetch("http://localhost:3001/api/v1/users")
+const fetchUsers = fetch("https://whats-cookin-api-ten.vercel.app/api/v1/users")
   .then((response) => {
     if(!response.ok) {
       throw new Error(`Fetch failed with status: ${response.status}`);
@@ -965,7 +965,7 @@ const fetchUsers = fetch("http://localhost:3001/api/v1/users")
   });
 
 const fetchIngredients = fetch(
-  "http://localhost:3001/api/v1/ingredients"
+  "https://whats-cookin-api-ten.vercel.app/api/v1/ingredients"
 )
   .then((response) => {
     if (!response.ok) {
@@ -981,7 +981,7 @@ const fetchIngredients = fetch(
     throw error;
   })
 
-  const fetchRecipes = fetch("http://localhost:3001/api/v1/recipes")
+  const fetchRecipes = fetch("https://whats-cookin-api-ten.vercel.app/api/v1/recipes")
   .then((response) => {
     if (!response.ok) {
       throw new Error(`Fetch failed with status: ${response.status}`);
@@ -997,7 +997,7 @@ const fetchIngredients = fetch(
   });
 
 function sendPostRequest(currentUser, clickedRecipe) {
-  return fetch("http://localhost:3001/api/v1/usersRecipes", {
+  return fetch("https://whats-cookin-api-ten.vercel.app/api/v1/usersRecipes", {
     method: 'POST',
     body: JSON.stringify({
       userID: currentUser.id,
@@ -1021,7 +1021,7 @@ function sendPostRequest(currentUser, clickedRecipe) {
 }
 
 function sendDeleteRequest(currentUser, clickedRecipe) {
-  return fetch("http://localhost:3001/api/v1/usersRecipes", {
+  return fetch("https://whats-cookin-api-ten.vercel.app/api/v1/usersRecipes", {
     method: 'DELETE',
     body: JSON.stringify({
       userID: currentUser.id,
