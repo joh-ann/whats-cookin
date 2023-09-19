@@ -965,7 +965,7 @@ const fetchUsers = fetch("https://whats-cookin-api-ten.vercel.app/api/v1/users/"
   });
 
 const fetchIngredients = fetch(
-  "hhttps://whats-cookin-api-ten.vercel.app/api/v1/ingredients"
+  "https://whats-cookin-api-ten.vercel.app/api/v1/ingredients"
 )
   .then((response) => {
     if (!response.ok) {
