@@ -317,7 +317,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "* {\n  margin: 0;\n  padding: 0;\n  font-family: \"Roboto\";\n}\n\nbody {\n  background-color: white;\n}\n\nmain {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  gap: 15px;\n}\n\nh1 {\n  font-family: \"Cedarville Cursive\";\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  font-size: 50px;\n  font-weight: bolder;\n  margin-top: 1.8rem;\n}\n\n.nav {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  gap: 20px;\n}\n\n.recipes {\n  display: flex;\n  flex-wrap: wrap;\n  gap: 50px;\n  align-items: center;\n  justify-content: center;\n  height: 750px;\n  width: 80%;\n  overflow: scroll;\n  font-weight: bolder;\n  /* background-color: white; */\n  padding-top: 2em;\n}\n\n.recipe-card {\n  display: flex;\n  flex-direction: column;\n  background-color: white;\n  border: 2px #d9dadd;\n  align-items: center;\n  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);\n  border-radius: 35px;\n}\n\n.recipe-card:hover {\n  transition: transform 0.3s ease-in-out;\n  transform: scale(1.1);\n}\n\n.title-recipe {\n  width: 250px;\n  height: 50px;\n  overflow: scroll;\n  text-align: center;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  padding: 10px;\n  padding: 1.25em;\n}\n\n.title-recipe:hover {\n  cursor: pointer;\n}\n\nimg {\n  height: 200px;\n  width: 250px;\n  border-radius: 15px;\n}\n\nimg:hover {\n  cursor: pointer;\n}\n\n.view-saved {\n  height: 50px;\n  width: 200px;\n}\n\nbutton:hover {\n  cursor: pointer;\n}\n\n.modal-overlay {\n  position: fixed;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background: rgba(144, 147, 149, 0.5);\n  display: grid;\n  place-items: center;\n  visibility: hidden;\n  z-index: -10;\n}\n\n.open-modal {\n  visibility: visible;\n  z-index: 10;\n}\n\n.modal-container {\n  background-image: linear-gradient(rgba(15, 15, 15, 0.2), rgba(15, 15, 15, 0.2)), url(https://spoonacular.com/recipeImages/595736-556x370.jpg);\n  background-size: cover;\n  color: white;\n  width: 90vw;\n  opacity: 0.95;\n  height: 60vh;\n  text-align: center;\n  display: grid;\n  place-items: center;\n  position: relative;\n}\n\n.close-btn {\n  position: absolute;\n  top: 1rem;\n  right: 1rem;\n  font-size: 2rem;\n  background: none;\n  border: none;\n  cursor: pointer;\n  height: 50px;\n  width: 50px;\n}\n\n.close-btn:hover {\n  transform: scale(1.3);\n}\n\n.modal-container {\n  display: flex;\n  justify-content: space-between;\n}\n\n.modal-title-directions {\n  display: flex;\n  flex-direction: column;\n  gap: 20px;\n  width: 50vw;\n  height: 60vh;\n  overflow: scroll;\n}\n\n.modal-tags {\n  display: flex;\n  flex-direction: column;\n  width: 10vw;\n}\n\nul {\n  list-style-type: none;\n}\n\n.modal-ingredients-cost {\n  width: 30vw;\n  height: 60vh;\n  overflow: scroll;\n}\n\n.modal-directions {\n  overflow: scroll;\n}\n\n.btn {\n  height: 20px;\n  width: 100px;\n}\n\n.btn:hover {\n  transform: scale(1.1);\n}\n\n.tag-buttons {\n  display: flex;\n  overflow: scroll;\n  width: 775px;\n  gap: 50px;\n  background-color: white;\n  border: 2px dotted #d9dadd;\n  padding: 10px;\n  border-radius: 35px;\n}\n\np {\n  text-align: center;\n}\n\n.save-recipe-btn {\n  margin: 10px;\n  width: 120px;\n  height: 35px;\n  background-color: #d9dadd;\n  border: none;\n  border-radius: 100rem;\n  padding: 0.8rem;\n  font-size: 0.8rem;\n  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);\n  font-weight: 300;\n}\n\n.save-recipe-btn:hover {\n  transition: transform 0.3s ease-in-out;\n  transform: scale(1.1);\n}\n\n.input-name {\n  background-color: #d9dadd;\n  border: none;\n  border-radius: 100rem;\n  padding: 0.8rem;\n  font-size: 1.2rem;\n  width: 30rem;\n}\n\n.input-name::placeholder {\n  font-family: \"Cedarville Cursive\";\n}\n\n.input-ingredient::placeholder {\n  font-family: \"Cedarville Cursive\";\n}\n\n.input-ingredient {\n  background-color: #d9dadd;\n  border: none;\n  border-radius: 100rem;\n  padding: 0.8rem;\n  font-size: 1.2rem;\n  width: 30rem;\n}\n\n.title-recipe {\n  font-size: 18px;\n  font-family: \"Roboto\";\n  font-weight: 300;\n}\n\n.view-saved {\n  background-color: #d9dadd;\n  border: none;\n  border-radius: 100rem;\n  padding: 0.8rem;\n  font-size: 1.2rem;\n  width: 15rem;\n  margin-bottom: 10px;\n  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);\n  font-weight: 300;\n}\n\n.view-saved:hover {\n  background-color: #cccccc;\n  transition: transform 0.3s ease-in-out;\n  transform: scale(1.1);\n}\n\n.tag-btn {\n  height: 50px;\n  width: 50px;\n  border-radius: 15px;\n  margin: 2px;\n  filter: grayscale(60%);\n}\n\ntag-btn:hover {\n  cursor: pointer;\n}\n\n.tag-btn:hover {\n  background-color: #cccccc;\n  transition: transform 0.3s ease-in-out;\n  transform: scale(1.1);\n}\n\n.food-icon {\n  height: 20px;\n  width: 20px;\n}\n\n.modal-title {\n  margin-top: 100px;\n  font-size: 48px;\n}\n\n.modal-cost {\n  font-size: 24px;\n  margin-top: 100px;\n  margin-bottom: 50px;\n  font-weight: 300;\n}\n\n.modal-container {\n  padding-left: 50px;\n  padding-right: 50px;\n  border-radius: 50px;\n  padding-bottom: 50px;\n  gap: 100px;\n}\n\n.modal-ingredients-list {\n  font-size: 24px;\n}\n\n.modal-ingredients {\n  font-size: 28px;\n  margin-bottom: 10px;\n}\n\n.modal-directions {\n  font-size: 32px;\n}\n\n.modal-directions-list {\n  font-size: 24px;\n}\n\n.modal-tags {\n  font-size: 24px;\n}\n\np {\n  font-weight: 300;\n}\n\nli {\n  font-weight: 300;\n  text-align: left;\n}", "",{"version":3,"sources":["webpack://./src/styles.css"],"names":[],"mappings":"AAAA;EACE,SAAA;EACA,UAAA;EACA,qBAAA;AACF;;AAEA;EACE,uBAAA;AACF;;AAEA;EACE,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,mBAAA;EACA,SAAA;AACF;;AAEA;EACE,iCAAA;EACA,aAAA;EACA,mBAAA;EACA,uBAAA;EACA,eAAA;EACA,mBAAA;EACA,kBAAA;AACF;;AAEA;EACE,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,mBAAA;EACA,SAAA;AACF;;AAEA;EACE,aAAA;EACA,eAAA;EACA,SAAA;EACA,mBAAA;EACA,uBAAA;EACA,aAAA;EACA,UAAA;EACA,gBAAA;EACA,mBAAA;EACA,6BAAA;EACA,gBAAA;AACF;;AAEA;EACE,aAAA;EACA,sBAAA;EAEA,uBAAA;EACA,mBAAA;EACA,mBAAA;EACA,0CAAA;EAEA,mBAAA;AADF;;AAGA;EACE,sCAAA;EACA,qBAAA;AAAF;;AAGA;EACE,YAAA;EACA,YAAA;EACA,gBAAA;EACA,kBAAA;EACA,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,aAAA;EACA,eAAA;AAAF;;AAGA;EACE,eAAA;AAAF;;AAGA;EACE,aAAA;EACA,YAAA;EACA,mBAAA;AAAF;;AAGA;EACE,eAAA;AAAF;;AAGA;EACE,YAAA;EACA,YAAA;AAAF;;AAGA;EACE,eAAA;AAAF;;AAGA;EACE,eAAA;EACA,MAAA;EACA,OAAA;EACA,WAAA;EACA,YAAA;EACA,oCAAA;EACA,aAAA;EACA,mBAAA;EACA,kBAAA;EACA,YAAA;AAAF;;AAGA;EACE,mBAAA;EACA,WAAA;AAAF;;AAEA;EACE,6IAAA;EAKA,sBAAA;EACA,YAAA;EACA,WAAA;EACA,aAAA;EACA,YAAA;EACA,kBAAA;EACA,aAAA;EACA,mBAAA;EACA,kBAAA;AAHF;;AAMA;EACE,kBAAA;EACA,SAAA;EACA,WAAA;EACA,eAAA;EACA,gBAAA;EACA,YAAA;EACA,eAAA;EACA,YAAA;EACA,WAAA;AAHF;;AAKA;EACE,qBAAA;AAFF;;AAKA;EACE,aAAA;EACA,8BAAA;AAFF;;AAKA;EACE,aAAA;EACA,sBAAA;EACA,SAAA;EACA,WAAA;EACA,YAAA;EACA,gBAAA;AAFF;;AAKA;EACE,aAAA;EACA,sBAAA;EACA,WAAA;AAFF;;AAKA;EACE,qBAAA;AAFF;;AAKA;EACE,WAAA;EACA,YAAA;EACA,gBAAA;AAFF;;AAKA;EACE,gBAAA;AAFF;;AAKA;EACE,YAAA;EACA,YAAA;AAFF;;AAKA;EACE,qBAAA;AAFF;;AAKA;EACE,aAAA;EACA,gBAAA;EACA,YAAA;EACA,SAAA;EACA,uBAAA;EACA,0BAAA;EACA,aAAA;EACA,mBAAA;AAFF;;AAKA;EACE,kBAAA;AAFF;;AAKA;EACE,YAAA;EACA,YAAA;EACA,YAAA;EACA,yBAAA;EACA,YAAA;EACA,qBAAA;EACA,eAAA;EACA,iBAAA;EACA,0CAAA;EACA,gBAAA;AAFF;;AAIA;EACE,sCAAA;EACA,qBAAA;AADF;;AAIA;EACE,yBAAA;EACA,YAAA;EACA,qBAAA;EACA,eAAA;EACA,iBAAA;EACA,YAAA;AADF;;AAGA;EACE,iCAAA;AAAF;;AAEA;EACE,iCAAA;AACF;;AAEA;EACE,yBAAA;EACA,YAAA;EACA,qBAAA;EACA,eAAA;EACA,iBAAA;EACA,YAAA;AACF;;AAEA;EACE,eAAA;EACA,qBAAA;EACA,gBAAA;AACF;;AAEA;EACE,yBAAA;EACA,YAAA;EACA,qBAAA;EACA,eAAA;EACA,iBAAA;EACA,YAAA;EACA,mBAAA;EACA,0CAAA;EACA,gBAAA;AACF;;AAEA;EACE,yBAAA;EACA,sCAAA;EACA,qBAAA;AACF;;AAEA;EACE,YAAA;EACA,WAAA;EACA,mBAAA;EACA,WAAA;EACA,sBAAA;AACF;;AAEA;EACE,eAAA;AACF;;AAEA;EACE,yBAAA;EACA,sCAAA;EACA,qBAAA;AACF;;AAEA;EACE,YAAA;EACA,WAAA;AACF;;AAEA;EACE,iBAAA;EACA,eAAA;AACF;;AAEA;EACE,eAAA;EACA,iBAAA;EACA,mBAAA;EACA,gBAAA;AACF;;AAEA;EACE,kBAAA;EACA,mBAAA;EACA,mBAAA;EACA,oBAAA;EACA,UAAA;AACF;;AAEA;EACE,eAAA;AACF;;AAEA;EACE,eAAA;EACA,mBAAA;AACF;;AAEA;EACE,eAAA;AACF;;AACA;EACE,eAAA;AAEF;;AACA;EACE,eAAA;AAEF;;AACA;EACE,gBAAA;AAEF;;AACA;EACE,gBAAA;EACA,gBAAA;AAEF","sourcesContent":["* {\n  margin: 0;\n  padding: 0;\n  font-family: \"Roboto\";\n}\n\nbody {\n  background-color: white;\n}\n\nmain {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  gap: 15px;\n}\n\nh1 {\n  font-family: \"Cedarville Cursive\";\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  font-size: 50px;\n  font-weight: bolder;\n  margin-top: 1.8rem;\n}\n\n.nav {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  gap: 20px;\n}\n\n.recipes {\n  display: flex;\n  flex-wrap: wrap;\n  gap: 50px;\n  align-items: center;\n  justify-content: center;\n  height: 750px;\n  width: 80%;\n  overflow: scroll;\n  font-weight: bolder;\n  /* background-color: white; */\n  padding-top: 2em;\n}\n\n.recipe-card {\n  display: flex;\n  flex-direction: column;\n\n  background-color: white;\n  border: 2px #d9dadd;\n  align-items: center;\n  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);\n\n  border-radius: 35px;\n}\n.recipe-card:hover {\n  transition: transform 0.3s ease-in-out;\n  transform: scale(1.1);\n}\n\n.title-recipe {\n  width: 250px;\n  height: 50px;\n  overflow: scroll;\n  text-align: center;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  padding: 10px;\n  padding: 1.25em\n}\n\n.title-recipe:hover {\n  cursor: pointer;\n}\n\nimg {\n  height: 200px;\n  width: 250px;\n  border-radius: 15px;\n}\n\nimg:hover {\n  cursor: pointer;\n}\n\n.view-saved {\n  height: 50px;\n  width: 200px;\n}\n\nbutton:hover {\n  cursor: pointer;\n}\n\n.modal-overlay {\n  position: fixed;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background: rgba(144, 147, 149, 0.5);\n  display: grid;\n  place-items: center;\n  visibility: hidden;\n  z-index: -10;\n}\n\n.open-modal {\n  visibility: visible;\n  z-index: 10;\n}\n.modal-container {\n  background-image: linear-gradient(\n      rgba(15, 15, 15, 0.2),\n      rgba(15, 15, 15, 0.2)\n    ),\n    url(https://spoonacular.com/recipeImages/595736-556x370.jpg);\n  background-size: cover;\n  color: white;\n  width: 90vw;\n  opacity: 0.95;\n  height: 60vh;\n  text-align: center;\n  display: grid;\n  place-items: center;\n  position: relative;\n}\n\n.close-btn {\n  position: absolute;\n  top: 1rem;\n  right: 1rem;\n  font-size: 2rem;\n  background: none;\n  border: none;\n  cursor: pointer;\n  height: 50px;\n  width: 50px;\n}\n.close-btn:hover {\n  transform: scale(1.3);\n}\n\n.modal-container {\n  display: flex;\n  justify-content: space-between;\n}\n\n.modal-title-directions {\n  display: flex;\n  flex-direction: column;\n  gap: 20px;\n  width: 50vw;\n  height: 60vh;\n  overflow: scroll;\n}\n\n.modal-tags {\n  display: flex;\n  flex-direction: column;\n  width: 10vw;\n}\n\nul {\n  list-style-type: none;\n}\n\n.modal-ingredients-cost {\n  width: 30vw;\n  height: 60vh;\n  overflow: scroll;\n}\n\n.modal-directions {\n  overflow: scroll;\n}\n\n.btn {\n  height: 20px;\n  width: 100px;\n}\n\n.btn:hover {\n  transform: scale(1.1);\n}\n\n.tag-buttons {\n  display: flex;\n  overflow: scroll;\n  width: 775px;\n  gap: 50px;\n  background-color: white;\n  border: 2px dotted #d9dadd;\n  padding: 10px;\n  border-radius: 35px;\n}\n\np {\n  text-align: center;\n}\n\n.save-recipe-btn {\n  margin: 10px;\n  width: 120px;\n  height: 35px;\n  background-color: #d9dadd;\n  border: none;\n  border-radius: 100rem;\n  padding: 0.8rem;\n  font-size: 0.8rem;\n  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);\n  font-weight: 300;\n}\n.save-recipe-btn:hover {\n  transition: transform 0.3s ease-in-out;\n  transform: scale(1.1);\n}\n\n.input-name {\n  background-color: #d9dadd;\n  border: none;\n  border-radius: 100rem;\n  padding: 0.8rem;\n  font-size: 1.2rem;\n  width: 30rem;\n}\n.input-name::placeholder {\n  font-family: \"Cedarville Cursive\";\n}\n.input-ingredient::placeholder {\n  font-family: \"Cedarville Cursive\";\n}\n\n.input-ingredient {\n  background-color: #d9dadd;\n  border: none;\n  border-radius: 100rem;\n  padding: 0.8rem;\n  font-size: 1.2rem;\n  width: 30rem;\n}\n\n.title-recipe {\n  font-size: 18px;\n  font-family: \"Roboto\";\n  font-weight: 300;\n}\n\n.view-saved {\n  background-color: #d9dadd;\n  border: none;\n  border-radius: 100rem;\n  padding: 0.8rem;\n  font-size: 1.2rem;\n  width: 15rem;\n  margin-bottom: 10px;\n  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);\n  font-weight: 300;\n}\n\n.view-saved:hover {\n  background-color: #cccccc;\n  transition: transform 0.3s ease-in-out;\n  transform: scale(1.1);\n}\n\n.tag-btn {\n  height: 50px;\n  width: 50px;\n  border-radius: 15px;\n  margin: 2px;\n  filter: grayscale(60%);\n}\n\ntag-btn:hover {\n  cursor: pointer;\n}\n\n.tag-btn:hover {\n  background-color: #cccccc;\n  transition: transform 0.3s ease-in-out;\n  transform: scale(1.1);\n}\n\n.food-icon {\n  height: 20px;\n  width: 20px;\n}\n\n.modal-title {\n  margin-top: 100px;\n  font-size: 48px;\n}\n\n.modal-cost {\n  font-size: 24px;\n  margin-top: 100px;\n  margin-bottom: 50px;\n  font-weight: 300;\n}\n\n.modal-container {\n  padding-left: 50px;\n  padding-right: 50px;\n  border-radius: 50px;\n  padding-bottom: 50px;\n  gap: 100px;\n}\n\n.modal-ingredients-list {\n  font-size: 24px;\n}\n\n.modal-ingredients {\n  font-size: 28px;\n  margin-bottom: 10px;\n}\n\n.modal-directions {\n  font-size: 32px;\n}\n.modal-directions-list {\n  font-size: 24px;\n}\n\n.modal-tags {\n  font-size: 24px;\n}\n\np {\n  font-weight: 300;\n}\n\nli {\n  font-weight: 300;\n  text-align: left;\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "* {\n  margin: 0;\n  padding: 0;\n  font-family: \"Roboto\";\n}\n\nbody {\n  background-color: white;\n}\n\nmain {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  gap: 15px;\n}\n\nh1 {\n  font-family: \"Cedarville Cursive\";\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  font-size: 50px;\n  font-weight: bolder;\n  margin-top: 1.8rem;\n}\n\n.nav {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  gap: 20px;\n}\n\n.recipes {\n  display: flex;\n  flex-wrap: wrap;\n  gap: 50px;\n  align-items: flex-start;\n  justify-content: center;\n  height: 750px;\n  width: 80%;\n  overflow-y: scroll;\n  font-weight: bolder;\n  padding-top: 2em;\n}\n\n.recipe-card {\n  display: flex;\n  flex-direction: column;\n  background-color: white;\n  border: 2px #d9dadd;\n  align-items: center;\n  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);\n  border-radius: 35px;\n}\n\n.recipe-card:hover {\n  transition: transform 0.3s ease-in-out;\n  transform: scale(1.1);\n}\n\n.title-recipe {\n  width: 250px;\n  height: 50px;\n  text-align: center;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  padding: 10px;\n  padding: 1.25em;\n}\n\n.title-recipe:hover {\n  cursor: pointer;\n}\n\nimg {\n  height: 200px;\n  width: 250px;\n  border-radius: 15px;\n}\n\nimg:hover {\n  cursor: pointer;\n}\n\n.view-saved {\n  height: 50px;\n  width: 200px;\n}\n\nbutton:hover {\n  cursor: pointer;\n}\n\n.modal-overlay {\n  position: fixed;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background: rgba(144, 147, 149, 0.5);\n  display: grid;\n  place-items: center;\n  visibility: hidden;\n  z-index: -10;\n}\n\n.open-modal {\n  visibility: visible;\n  z-index: 10;\n}\n\n.modal-container {\n  background-image: linear-gradient(rgba(15, 15, 15, 0.2), rgba(15, 15, 15, 0.2)), url(https://spoonacular.com/recipeImages/595736-556x370.jpg);\n  background-size: cover;\n  color: white;\n  width: 90vw;\n  opacity: 0.95;\n  height: 60vh;\n  text-align: center;\n  display: grid;\n  place-items: center;\n  position: relative;\n}\n\n.close-btn {\n  position: absolute;\n  top: 1rem;\n  right: 1rem;\n  font-size: 2rem;\n  background: none;\n  border: none;\n  cursor: pointer;\n  height: 50px;\n  width: 50px;\n}\n\n.close-btn:hover {\n  transform: scale(1.2);\n  color: red;\n}\n\n.modal-container {\n  display: flex;\n  justify-content: space-between;\n}\n\n.modal-title-directions {\n  display: flex;\n  flex-direction: column;\n  gap: 30px;\n  width: 50vw;\n  height: 60vh;\n  overflow-y: auto;\n}\n\n.modal-tags {\n  display: flex;\n  flex-direction: column;\n  width: 12vw;\n  height: 60vh;\n  margin-top: 55px;\n  overflow-y: auto;\n}\n\nul {\n  list-style-type: none;\n}\n\n.modal-ingredients-cost {\n  width: 30vw;\n  height: 60vh;\n  overflow-y: auto;\n}\n\n.modal-directions {\n  overflow-y: auto;\n}\n\n.btn {\n  height: 20px;\n  width: 100px;\n}\n\n.btn:hover {\n  transform: scale(1.1);\n}\n\n.tag-buttons {\n  display: flex;\n  overflow-x: auto;\n  width: 775px;\n  gap: 50px;\n  background-color: white;\n  border: 2px dotted #d9dadd;\n  padding: 10px;\n  border-radius: 35px;\n}\n\np {\n  text-align: center;\n}\n\n.save-recipe-btn {\n  margin: 10px;\n  width: 120px;\n  height: 35px;\n  background-color: #d9dadd;\n  border: none;\n  border-radius: 100rem;\n  padding: 0.8rem;\n  font-size: 0.8rem;\n  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);\n  font-weight: 300;\n}\n\n.save-recipe-btn:hover {\n  transition: transform 0.3s ease-in-out;\n  transform: scale(1.1);\n}\n\n.input-name {\n  background-color: #d9dadd;\n  border: none;\n  border-radius: 100rem;\n  padding: 0.8rem;\n  font-size: 1.2rem;\n  width: 30rem;\n}\n\n.input-name::placeholder {\n  font-size: 15px;\n}\n\n.input-ingredient::placeholder {\n  font-size: 15px;\n}\n\n.input-ingredient {\n  background-color: #d9dadd;\n  border: none;\n  border-radius: 100rem;\n  padding: 0.8rem;\n  font-size: 1.2rem;\n  width: 30rem;\n}\n\n.title-recipe {\n  font-size: 18px;\n  font-family: \"Roboto\";\n  font-weight: 300;\n}\n\n.view-saved {\n  background-color: #d9dadd;\n  border: none;\n  border-radius: 100rem;\n  padding: 0.8rem;\n  font-size: 1.3rem;\n  width: 17rem;\n  margin-bottom: 30px;\n  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);\n  font-weight: 300;\n}\n\n.view-saved:hover {\n  background-color: #cccccc;\n  transition: transform 0.3s ease-in-out;\n  transform: scale(1.1);\n}\n\n.tag-btn {\n  height: 50px;\n  width: 50px;\n  border-radius: 15px;\n  margin: 2px;\n  filter: grayscale(60%);\n}\n\ntag-btn:hover {\n  cursor: pointer;\n}\n\n.tag-btn:hover {\n  background-color: #cccccc;\n  transition: transform 0.3s ease-in-out;\n  transform: scale(1.2);\n  filter: grayscale(30%);\n}\n\n.tag-btn-active {\n  filter: grayscale(30%);\n  transition: transform 0.3s ease-in-out;\n  transform: scale(1.2);\n}\n\n.food-icon {\n  height: 20px;\n  width: 20px;\n}\n\n.modal-title {\n  margin-top: 100px;\n  font-size: 2.2rem;\n}\n\n.modal-cost {\n  font-size: 1.4rem;\n  margin-top: 100px;\n  margin-bottom: 20px;\n  font-weight: 300;\n}\n\n.modal-container {\n  padding-left: 50px;\n  padding-right: 50px;\n  border-radius: 50px;\n  padding-bottom: 50px;\n  gap: 100px;\n}\n\n.modal-ingredients-list {\n  font-size: 1.1rem;\n  margin-top: 10px;\n}\n\n.modal-ingredients {\n  font-size: 1.3rem;\n  margin-bottom: 10px;\n  margin-top: 20px;\n}\n\n.modal-directions {\n  font-size: 1.8rem;\n}\n\n.modal-directions-list {\n  font-size: 1.2rem;\n}\n\n.modal-tags {\n  font-size: 1.1rem;\n}\n\nli {\n  font-weight: 300;\n  text-align: left;\n}\n\n.bold {\n  font-weight: bold;\n}\n\n.choose-currency {\n  font-size: 18px;\n}\n\n.currencies-dropdown {\n  font-size: 18px;\n}\n\n.is-saved {\n  background-color: #89ce94;\n}\n\n.is-not-saved {\n  background-color: #e5e7e9;\n}\n\n.none-saved {\n  color: red;\n  padding-top: 22px;\n  font-size: 16px;\n}\n\n#ing-checkbox {\n  cursor: pointer;\n  width: 20px;\n  height: 20px;\n  margin-right: 5px;\n}", "",{"version":3,"sources":["webpack://./src/styles.css"],"names":[],"mappings":"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","sourcesContent":["* {\n  margin: 0;\n  padding: 0;\n  font-family: \"Roboto\";\n}\n\nbody {\n  background-color: white;\n}\n\nmain {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  gap: 15px;\n}\n\nh1 {\n  font-family: \"Cedarville Cursive\";\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  font-size: 50px;\n  font-weight: bolder;\n  margin-top: 1.8rem;\n}\n\n.nav {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  gap: 20px;\n}\n\n.recipes {\n  display: flex;\n  flex-wrap: wrap;\n  gap: 50px;\n  align-items: flex-start;\n  justify-content: center;\n  height: 750px;\n  width: 80%;\n  overflow-y: scroll;\n  font-weight: bolder;\n  padding-top: 2em;\n}\n\n.recipe-card {\n  display: flex;\n  flex-direction: column;\n\n  background-color: white;\n  border: 2px #d9dadd;\n  align-items: center;\n  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);\n\n  border-radius: 35px;\n}\n.recipe-card:hover {\n  transition: transform 0.3s ease-in-out;\n  transform: scale(1.1);\n}\n\n.title-recipe {\n  width: 250px;\n  height: 50px;\n  text-align: center;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  padding: 10px;\n  padding: 1.25em;\n}\n\n.title-recipe:hover {\n  cursor: pointer;\n}\n\nimg {\n  height: 200px;\n  width: 250px;\n  border-radius: 15px;\n}\n\nimg:hover {\n  cursor: pointer;\n}\n\n.view-saved {\n  height: 50px;\n  width: 200px;\n}\n\nbutton:hover {\n  cursor: pointer;\n}\n\n.modal-overlay {\n  position: fixed;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background: rgba(144, 147, 149, 0.5);\n  display: grid;\n  place-items: center;\n  visibility: hidden;\n  z-index: -10;\n}\n\n.open-modal {\n  visibility: visible;\n  z-index: 10;\n}\n.modal-container {\n  background-image: linear-gradient(\n      rgba(15, 15, 15, 0.2),\n      rgba(15, 15, 15, 0.2)\n    ),\n    url(https://spoonacular.com/recipeImages/595736-556x370.jpg);\n  background-size: cover;\n  color: white;\n  width: 90vw;\n  opacity: 0.95;\n  height: 60vh;\n  text-align: center;\n  display: grid;\n  place-items: center;\n  position: relative;\n}\n\n.close-btn {\n  position: absolute;\n  top: 1rem;\n  right: 1rem;\n  font-size: 2rem;\n  background: none;\n  border: none;\n  cursor: pointer;\n  height: 50px;\n  width: 50px;\n}\n.close-btn:hover {\n  transform: scale(1.2);\n  color: red;\n}\n\n.modal-container {\n  display: flex;\n  justify-content: space-between;\n}\n\n.modal-title-directions {\n  display: flex;\n  flex-direction: column;\n  gap: 30px;\n  width: 50vw;\n  height: 60vh;\n  overflow-y: auto;\n}\n\n.modal-tags {\n  display: flex;\n  flex-direction: column;\n  width: 12vw;\n  height: 60vh;\n  margin-top: 55px;\n  overflow-y: auto;\n}\n\nul {\n  list-style-type: none;\n}\n\n.modal-ingredients-cost {\n  width: 30vw;\n  height: 60vh;\n  overflow-y: auto;\n}\n\n.modal-directions {\n  overflow-y: auto;\n}\n\n.btn {\n  height: 20px;\n  width: 100px;\n}\n\n.btn:hover {\n  transform: scale(1.1);\n}\n\n.tag-buttons {\n  display: flex;\n  overflow-x: auto;\n  width: 775px;\n  gap: 50px;\n  background-color: white;\n  border: 2px dotted #d9dadd;\n  padding: 10px;\n  border-radius: 35px;\n}\n\np {\n  text-align: center;\n}\n\n.save-recipe-btn {\n  margin: 10px;\n  width: 120px;\n  height: 35px;\n  background-color: #d9dadd;\n  border: none;\n  border-radius: 100rem;\n  padding: 0.8rem;\n  font-size: 0.8rem;\n  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);\n  font-weight: 300;\n}\n.save-recipe-btn:hover {\n  transition: transform 0.3s ease-in-out;\n  transform: scale(1.1);\n}\n\n.input-name {\n  background-color: #d9dadd;\n  border: none;\n  border-radius: 100rem;\n  padding: 0.8rem;\n  font-size: 1.2rem;\n  width: 30rem;\n}\n.input-name::placeholder {\n  font-size: 15px;\n}\n.input-ingredient::placeholder {\n  font-size: 15px;\n}\n\n.input-ingredient {\n  background-color: #d9dadd;\n  border: none;\n  border-radius: 100rem;\n  padding: 0.8rem;\n  font-size: 1.2rem;\n  width: 30rem;\n}\n\n.title-recipe {\n  font-size: 18px;\n  font-family: \"Roboto\";\n  font-weight: 300;\n}\n\n.view-saved {\n  background-color: #d9dadd;\n  border: none;\n  border-radius: 100rem;\n  padding: 0.8rem;\n  font-size: 1.3rem;\n  width: 17rem;\n  margin-bottom: 30px;\n  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);\n  font-weight: 300;\n}\n\n.view-saved:hover {\n  background-color: #cccccc;\n  transition: transform 0.3s ease-in-out;\n  transform: scale(1.1);\n}\n\n.tag-btn {\n  height: 50px;\n  width: 50px;\n  border-radius: 15px;\n  margin: 2px;\n  filter: grayscale(60%);\n}\n\ntag-btn:hover {\n  cursor: pointer;\n}\n\n.tag-btn:hover {\n  background-color: #cccccc;\n  transition: transform 0.3s ease-in-out;\n  transform: scale(1.2);\n  filter:grayscale(30%)\n}\n\n.tag-btn-active {\n  filter:grayscale(30%);\n  transition: transform 0.3s ease-in-out;\n  transform: scale(1.2);\n}\n\n.food-icon {\n  height: 20px;\n  width: 20px;\n}\n\n.modal-title {\n  margin-top: 100px;\n  font-size: 2.2rem;\n}\n\n.modal-cost {\n  font-size: 1.4rem;\n  margin-top: 100px;\n  margin-bottom: 20px;\n  font-weight: 300;\n}\n\n.modal-container {\n  padding-left: 50px;\n  padding-right: 50px;\n  border-radius: 50px;\n  padding-bottom: 50px;\n  gap: 100px;\n}\n\n.modal-ingredients-list {\n  font-size: 1.1rem;\n  margin-top: 10px;\n}\n\n.modal-ingredients {\n  font-size: 1.3rem;\n  margin-bottom: 10px;\n  margin-top: 20px;\n}\n\n.modal-directions {\n  font-size: 1.8rem;\n}\n.modal-directions-list {\n  font-size: 1.2rem;\n}\n\n.modal-tags {\n  font-size: 1.1rem;\n}\n\nli {\n  font-weight: 300;\n  text-align: left;\n}\n\n.bold {\n  font-weight: bold;\n}\n\n.choose-currency {\n  font-size: 18px;\n}\n\n.currencies-dropdown {\n  font-size: 18px;\n}\n\n.is-saved {\n  background-color: #89ce94;\n}\n\n.is-not-saved {\n  background-color: #e5e7e9;\n}\n\n.none-saved {\n  color: red;\n  padding-top: 22px;\n  font-size: 16px;\n}\n\n#ing-checkbox {\n  cursor:pointer;\n  width: 20px;\n  height: 20px;\n  margin-right: 5px;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -440,6 +440,7 @@ module.exports = function (cssWithMappingToString) {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   displayFilteredRecipes: () => (/* binding */ displayFilteredRecipes),
 /* harmony export */   displayRecipes: () => (/* binding */ displayRecipes),
 /* harmony export */   displayTags: () => (/* binding */ displayTags)
 /* harmony export */ });
@@ -449,14 +450,14 @@ __webpack_require__.r(__webpack_exports__);
 const recipeDisplay = document.querySelector(".recipes");
 const tagButtons = document.querySelector(".tag-buttons");
 
-function displayRecipes(array, innerText) {
+function displayRecipes(recipes, innerText) {
   let recipeHTML = ``;
-  array.forEach((recipeEl) => {
-    recipeHTML += `<div class="recipe-card"><div class="title-recipe" id=${recipeEl.id}>${recipeEl.name}</div>
+  recipes.forEach((recipeEl) => {
+    recipeHTML += `<div tabindex="0" class="recipe-card" id=${recipeEl.id}><div class="title-recipe" id="${recipeEl.id}">${recipeEl.name}</div>
     <img
       src="${recipeEl.image}"
-      alt="recipe-img"
-      id=${recipeEl.id}
+      alt="${recipeEl.image}"
+      id="${recipeEl.id}"
     />
     <button class="save-recipe-btn">${innerText}</button>
     </div>`;
@@ -464,15 +465,49 @@ function displayRecipes(array, innerText) {
   recipeDisplay.innerHTML = recipeHTML;
 }
 
-function displayTags(array) {
-  const tagsArray = (0,_src_functions_js__WEBPACK_IMPORTED_MODULE_0__.returnListOfUniqueTags)(array);
+function displayTags(recipes) {
+  const tags = (0,_src_functions_js__WEBPACK_IMPORTED_MODULE_0__.returnListOfUniqueTags)(recipes);
   let tagsHtml = "";
-  tagsArray.forEach((tagEl) => {
-    tagsHtml += `<div><img src="https://joh-ann.github.io/whats-cookin/images/${tagEl}.png" class="tag-btn" id="${tagEl}"><p>${tagEl}</p></div>
+  tags.forEach((tagEl) => {
+    tagsHtml += `<div><img tabindex="0" class="tag-btn" alt="${tagEl}" id="${tagEl}" src="/images/${tagEl}.png"><p>${tagEl}</p></div>
     `;
   });
   tagButtons.innerHTML = tagsHtml;
 }
+
+function displayFilteredRecipes(recipeData, currentUserRecipes) {
+  // store user recipes ids
+  const savedRecipeIDs = currentUserRecipes.map((userRecipe) => userRecipe.id);
+
+  // display on html
+  let filteredRecipeHTML = ``;
+  let innerText = ``;
+  let buttonClass = ``;
+
+  recipeData.forEach((recipe) => {
+    // changing innerText and setting buttonClass for DOM
+    const isSaved = savedRecipeIDs.includes(recipe.id);
+    if (isSaved) {
+      innerText = `✓ Saved`;
+      buttonClass = "is-saved";
+    } else {
+      innerText = `Save Recipe`;
+      buttonClass = "is-not-saved";
+    }
+
+    filteredRecipeHTML += `<div class="recipe-card" id=${recipe.id}><div class="title-recipe" id=${recipe.id}>${recipe.name}</div>
+    <img
+      src="${recipe.image}"
+      alt="recipe-img"
+      id=${recipe.id}
+    />
+    <button class="save-recipe-btn ${buttonClass}">${innerText}</button>
+    </div>`;
+  });
+
+  recipeDisplay.innerHTML = filteredRecipeHTML;
+}
+
 
 /***/ }),
 /* 7 */
@@ -480,7 +515,6 @@ function displayTags(array) {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   createFunction: () => (/* binding */ createFunction),
 /* harmony export */   deleteRecipe: () => (/* binding */ deleteRecipe),
 /* harmony export */   findRecipeByIngredient: () => (/* binding */ findRecipeByIngredient),
 /* harmony export */   findRecipeByName: () => (/* binding */ findRecipeByName),
@@ -497,12 +531,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   returnRecipeTitle: () => (/* binding */ returnRecipeTitle),
 /* harmony export */   saveRecipe: () => (/* binding */ saveRecipe)
 /* harmony export */ });
-function createFunction(array) {
-  return array;
-}
-
-function returnFilteredTag(array, tag) {
-  const filteredRecipe = array.filter((recipeEl) => {
+function returnFilteredTag(recipes, tag) {
+  const filteredRecipe = recipes.filter((recipeEl) => {
     return recipeEl.tags.includes(tag);
   });
   if (filteredRecipe) {
@@ -514,37 +544,35 @@ function returnFilteredTag(array, tag) {
   }
 }
 
-function returnRecipeCost(arrayRecipe, arrayIngredients, recipeID) {
-  const filteredRecipe = arrayRecipe.find((recipeEl) => {
-    return recipeEl.id === parseInt(recipeID);
+function returnRecipeCost(recipes, ingredients, id) {
+  const filteredRecipe = recipes.find((recipeEl) => {
+    return recipeEl.id === parseInt(id);
   });
   if (filteredRecipe) {
     const ingredientsArr = filteredRecipe.ingredients;
-    let totalCost = 0;
-
-    ingredientsArr.forEach((ingredientEl) => {
-      const matchingIngredient = arrayIngredients.find((ingredientsObjEl) => {
+    const totalCost = ingredientsArr.reduce((acc, ingredientEl) => {
+      const matchingIngredient = ingredients.find((ingredientsObjEl) => {
         return ingredientEl.id === ingredientsObjEl.id;
       });
       if (matchingIngredient) {
-        totalCost +=
+        acc +=
           (ingredientEl.quantity.amount *
             matchingIngredient.estimatedCostInCents) /
           100;
       }
-    });
+      return acc;
+    }, 0);
     return Math.round(totalCost);
   }
 }
-
-function returnIngredientNames(arrayRecipe, arrayIngredients, recipeID) {
-  const filteredRecipe = arrayRecipe.find((recipeEl) => {
-    return recipeEl.id === parseInt(recipeID);
+function returnIngredientNames(recipes, ingredients, id) {
+  const filteredRecipe = recipes.find((recipeEl) => {
+    return recipeEl.id === parseInt(id);
   });
   if (filteredRecipe) {
     const ingredientsArr = filteredRecipe.ingredients;
     return ingredientsArr.map((ingredientEl) => {
-      const matchingIngredient = arrayIngredients.find((ingredientsObjEl) => {
+      const matchingIngredient = ingredients.find((ingredientsObjEl) => {
         return ingredientEl.id === ingredientsObjEl.id;
       });
       if (matchingIngredient) {
@@ -554,12 +582,9 @@ function returnIngredientNames(arrayRecipe, arrayIngredients, recipeID) {
   }
   return [];
 }
-function returnRecipeDirections(array, recipeID) {
-  const filteredRecipe = array.find((recipeEl) => {
-    return recipeEl.id === parseInt(recipeID);
-    //recipeEl.id was a number
-    //recipeId was a string
-    // write a test case for different data types.
+function returnRecipeDirections(recipes, id) {
+  const filteredRecipe = recipes.find((recipeEl) => {
+    return recipeEl.id === parseInt(id);
   });
 
   if (filteredRecipe) {
@@ -571,8 +596,8 @@ function returnRecipeDirections(array, recipeID) {
   }
 }
 
-function returnFilteredListName(array, name) {
-  return array
+function returnFilteredListName(recipes, name) {
+  return recipes
     .filter((recipeEl) => {
       return (
         recipeEl.name.includes(name) ||
@@ -584,39 +609,39 @@ function returnFilteredListName(array, name) {
     });
 }
 
-function returnRecipeTitle(array, recipeID) {
-  return array
+function returnRecipeTitle(recipes, id) {
+  return recipes
     .filter((recipeEl) => {
-      return recipeEl.id === parseInt(recipeID);
+      return recipeEl.id === parseInt(id);
     })
     .map((oneRecipeEl) => {
       return oneRecipeEl.name;
     });
 }
 
-function returnRecipeTags(array, recipeID) {
-  return array
+function returnRecipeTags(recipes, id) {
+  return recipes
     .filter((recipeEl) => {
-      return recipeEl.id === parseInt(recipeID);
+      return recipeEl.id === parseInt(id);
     })
     .flatMap((recipeEl) => {
       return recipeEl.tags;
     });
 }
 
-function returnRecipeImgUrl(array, recipeID) {
-  return array
+function returnRecipeImgUrl(recipes, id) {
+  return recipes
     .filter((recipeEl) => {
-      return recipeEl.id === parseInt(recipeID);
+      return recipeEl.id === parseInt(id);
     })
     .map((filteredRecipeEl) => {
       return filteredRecipeEl.image;
     });
 }
 
-function returnListOfUniqueTags(array) {
-  return array.reduce((acc, curr) => {
-    curr.tags.forEach((tagEl) => {
+function returnListOfUniqueTags(recipes) {
+  return recipes.reduce((acc, currentRecipe) => {
+    currentRecipe.tags.forEach((tagEl) => {
       if (!acc.includes(tagEl)) {
         acc.push(tagEl);
       }
@@ -625,10 +650,10 @@ function returnListOfUniqueTags(array) {
   }, []);
 }
 
-function returnFilteredRecipeArrayByTagID(arrayTagsID, arrayRecipe) {
-  return arrayRecipe.filter((arrayRecipeEl) => {
+function returnFilteredRecipeArrayByTagID(arrayTagsID, recipes) {
+  return recipes.filter((recipesEl) => {
     return arrayTagsID.some((idEl) => {
-      return idEl === arrayRecipeEl.id;
+      return idEl === recipesEl.id;
     });
   });
 }
@@ -683,6 +708,7 @@ function deleteRecipe(savedArray, clickedId) {
   }
   return savedArray;
 }
+
 
 
 
@@ -882,35 +908,141 @@ __webpack_require__.r(__webpack_exports__);
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   fetchCurrencies: () => (/* binding */ fetchCurrencies),
+/* harmony export */   fetchCurrenciesCode: () => (/* binding */ fetchCurrenciesCode),
 /* harmony export */   fetchIngredients: () => (/* binding */ fetchIngredients),
 /* harmony export */   fetchRecipes: () => (/* binding */ fetchRecipes),
-/* harmony export */   fetchUsers: () => (/* binding */ fetchUsers)
+/* harmony export */   fetchUsers: () => (/* binding */ fetchUsers),
+/* harmony export */   sendDeleteRequest: () => (/* binding */ sendDeleteRequest),
+/* harmony export */   sendPostRequest: () => (/* binding */ sendPostRequest)
 /* harmony export */ });
 // Your fetch requests will live here!
+function fetchCurrenciesCode() {
+  return fetch(
+    "https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies.json"
+  )
+    .then((response) => {
+      if (!response.ok) {
+        throw new Error(`Fetch failed with status: ${response.status}`);
+      }
+      return response.json();
+    })
+    .catch((error) => {
+      console.error("Error fetching currencies code:", error);
+      throw error;
+    });
+}
 
-const fetchUsers = fetch(
-  "https://what-s-cookin-starter-kit.herokuapp.com/api/v1/users"
-)
-  .then((response) => response.json())
+function fetchCurrencies() {
+  return fetch(
+    "https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/usd.json"
+  )
+    .then((response) => {
+      if (!response.ok) {
+        throw new Error(`Fetch failed with status: ${response.status}`);
+      }
+      return response.json();
+    })
+    .catch((error) => {
+      console.error("Error fetching currencies:", error);
+      throw error;
+    });
+}
+
+const fetchUsers = fetch("http://localhost:3001/api/v1/users")
+  .then((response) => {
+    if(!response.ok) {
+      throw new Error(`Fetch failed with status: ${response.status}`);
+    }
+    return response.json();
+  })
   .then((data) => {
     return data.users;
+  })
+  .catch((error) => {
+    console.error("Error fetching users:", error);
+    throw error;
   });
 
 const fetchIngredients = fetch(
-  "https://what-s-cookin-starter-kit.herokuapp.com/api/v1/ingredients"
+  "http://localhost:3001/api/v1/ingredients"
 )
-  .then((response) => response.json())
+  .then((response) => {
+    if (!response.ok) {
+      throw new Error(`Fetch failed with status: ${response.status}`);
+    }
+    return response.json();
+  })
   .then((data) => {
     return data.ingredients;
-  });
+  })
+  .catch((error) => {
+    console.error("Error fetching ingredients:", error);
+    throw error;
+  })
 
-const fetchRecipes = fetch(
-  " https://what-s-cookin-starter-kit.herokuapp.com/api/v1/recipes"
-)
-  .then((response) => response.json())
+  const fetchRecipes = fetch("http://localhost:3001/api/v1/recipes")
+  .then((response) => {
+    if (!response.ok) {
+      throw new Error(`Fetch failed with status: ${response.status}`);
+    }
+    return response.json();
+  })
   .then((data) => {
     return data.recipes;
+  })
+  .catch((error) => {
+    console.error("Error fetching recipes:", error);
+    throw error;
   });
+
+function sendPostRequest(currentUser, clickedRecipe) {
+  return fetch("http://localhost:3001/api/v1/usersRecipes", {
+    method: 'POST',
+    body: JSON.stringify({
+      userID: currentUser.id,
+      recipeID: clickedRecipe
+    }),
+    headers: {
+       'Content-Type': 'application/json'
+    }
+  })
+  .then(response => {
+    if (!response.ok) {
+      throw newError(`Response failed with status: ${response.status}`);
+    }
+    return response.json()
+  })
+  .then(json => console.log(json))
+  .catch((error) => {
+    console.error("Error sending POST request:", error);
+    throw error;
+  });
+}
+
+function sendDeleteRequest(currentUser, clickedRecipe) {
+  return fetch("http://localhost:3001/api/v1/usersRecipes", {
+    method: 'DELETE',
+    body: JSON.stringify({
+      userID: currentUser.id,
+      recipeID: clickedRecipe
+    }),
+    headers: {
+       'Content-Type': 'application/json'
+    }
+  })
+  .then(response => {
+    if (!response.ok) {
+      throw new Error(`Request failed with status: ${response.status}`);
+    }
+    return response.json();
+  })
+  .then(json => console.log(json))
+  .catch((error) => {
+    console.error("Error sending DELETE request:", error);
+    throw error;
+  });
+}
 
 /***/ })
 /******/ 	]);
@@ -1013,7 +1145,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _images_spread_png__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(25);
 /* harmony import */ var _images_starter_png__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(26);
 /* harmony import */ var _apiCalls__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(27);
-//
 
 
 
@@ -1045,8 +1176,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const recipeDisplay = document.querySelector(".recipes");
-
-const modal = document.querySelector(".modal");
 const modalContainer = document.querySelector(".modal-container");
 const modalOverlay = document.querySelector(".modal-overlay");
 const modalTitle = document.querySelector(".modal-title");
@@ -1059,61 +1188,125 @@ const tagButtons = document.querySelector(".tag-buttons");
 const inputName = document.querySelector(".input-name");
 const inputIngredient = document.querySelector(".input-ingredient");
 const savedRecipesBtn = document.querySelector(".view-saved");
+const headerMsg = document.querySelector(".header-msg");
 
+// User
 let currentUser = {};
+let clickedRecipe = null;
 
 let usersData = null;
 let ingredientsData = null;
 let recipeData = null;
+let idClicked = null;
 
-function createRandomUser(array) {
-  const randIndex = Math.floor(Math.random() * array.length);
+// Currency
+let fetchedCodes = null;
+let fetchedRates = null;
 
-  const randomUser = array.find((userEl) => {
+let fetchedCad = null;
+let fetchedUsd = null;
+let fetchedEuro = null;
+let fetchedYen = null;
+
+(0,_apiCalls__WEBPACK_IMPORTED_MODULE_22__.fetchCurrenciesCode)().then((currencies) => {
+  fetchedCodes = currencies;
+  console.log(fetchedCodes);
+});
+
+(0,_apiCalls__WEBPACK_IMPORTED_MODULE_22__.fetchCurrencies)().then((currenciesRates) => {
+  fetchedRates = currenciesRates;
+  console.log(fetchedRates);
+  fetchedCad = fetchedRates.usd["cad"];
+  fetchedUsd = fetchedRates.usd["usd"];
+  fetchedEuro = fetchedRates.usd["eur"];
+  fetchedYen = fetchedRates.usd["jpy"];
+  console.log(fetchedCad);
+  console.log(fetchedUsd);
+  console.log(fetchedEuro);
+  console.log(fetchedYen);
+});
+
+function createRandomUser(users) {
+  const randIndex = Math.floor(Math.random() * users.length);
+
+  const randomUser = users.find((userEl) => {
     return userEl.id == randIndex;
   });
   currentUser.name = randomUser.name;
   currentUser.id = randomUser.id;
   currentUser.recipesToCook = [];
   console.log(currentUser);
+  headerMsg.innerText = `What's Cookin', ${currentUser.name}?`
 
   return currentUser;
 }
+
 const viewSavedRecipes = (recipeData) => {
-  if (savedRecipesBtn.innerText === "View Saved Recipes") {
-    // console.log(currentUser.recipesToCook);
-    // console.log(currentUser);
-    (0,_domUpdates_js__WEBPACK_IMPORTED_MODULE_1__.displayRecipes)(currentUser.recipesToCook, "Remove Recipe");
-    savedRecipesBtn.innerText = "View All";
-    (0,_domUpdates_js__WEBPACK_IMPORTED_MODULE_1__.displayTags)(currentUser.recipesToCook);
-  } else {
-    (0,_domUpdates_js__WEBPACK_IMPORTED_MODULE_1__.displayRecipes)(recipeData, "Save Recipe");
-    savedRecipesBtn.innerText = "View Saved Recipes";
-    (0,_domUpdates_js__WEBPACK_IMPORTED_MODULE_1__.displayTags)(recipeData);
-  }
+    if (savedRecipesBtn.innerText === "View Saved Recipes") {
+      (0,_domUpdates_js__WEBPACK_IMPORTED_MODULE_1__.displayRecipes)(currentUser.recipesToCook, "Remove Recipe");
+      savedRecipesBtn.innerText = "View All";
+      (0,_domUpdates_js__WEBPACK_IMPORTED_MODULE_1__.displayTags)(currentUser.recipesToCook);
+    } else {
+      (0,_domUpdates_js__WEBPACK_IMPORTED_MODULE_1__.displayFilteredRecipes)(recipeData, currentUser.recipesToCook);
+      savedRecipesBtn.innerText = "View Saved Recipes";
+      (0,_domUpdates_js__WEBPACK_IMPORTED_MODULE_1__.displayTags)(recipeData);
+    }
 };
 
-savedRecipesBtn.addEventListener("click", () => {
+let isMsgDisplayed = false; // initialize message
+let isBtnDisabled = false; // initialize button status
+
+savedRecipesBtn.addEventListener("click", (event) => {
+  if (!isBtnDisabled) {
+   if (currentUser.recipesToCook.length === 0 && !isMsgDisplayed && savedRecipesBtn.innerText === "View Saved Recipes") {
+     const pTag = document.createElement("p");
+     pTag.className = "none-saved";
+     pTag.textContent = `You don't have any recipes saved!`;
+ 
+     savedRecipesBtn.appendChild(pTag);
+     // display message
+     isMsgDisplayed = true;
+     // disable button
+     isBtnDisabled = true;
+ 
+     setTimeout(() => {
+       pTag.remove();
+       // reset message
+       isMsgDisplayed = false;
+       // reset button
+       isBtnDisabled = false;
+     }, 2000)
+    } else {
   viewSavedRecipes(recipeData);
+    }
+  }
 });
+
 recipeDisplay.addEventListener("click", (event) => {
   let clickedId = event.target.parentNode.firstChild.id;
+
   if (event.target.innerText === "Save Recipe") {
     event.target.innerText = "✓ Saved";
     event.target.style.backgroundColor = "#89ce94";
+    clickedRecipe = clickedId; // update clickedrecipe with correct id
     (0,_functions_js__WEBPACK_IMPORTED_MODULE_2__.saveRecipe)(recipeData, currentUser.recipesToCook, clickedId);
+    (0,_apiCalls__WEBPACK_IMPORTED_MODULE_22__.sendPostRequest)(currentUser, clickedRecipe);
   } else if (event.target.innerText === "✓ Saved") {
     event.target.innerText = "Save Recipe";
     event.target.style.backgroundColor = "#e5e7e9";
+    clickedRecipe = clickedId; // update clickedrecipe with correct id
+    (0,_apiCalls__WEBPACK_IMPORTED_MODULE_22__.sendDeleteRequest)(currentUser, clickedRecipe);
     (0,_functions_js__WEBPACK_IMPORTED_MODULE_2__.deleteRecipe)(currentUser.recipesToCook, clickedId);
   } else if (event.target.innerText === "Remove Recipe") {
+    clickedRecipe = clickedId; // update clickedrecipe with correct id
+    (0,_apiCalls__WEBPACK_IMPORTED_MODULE_22__.sendDeleteRequest)(currentUser, clickedRecipe);
     (0,_functions_js__WEBPACK_IMPORTED_MODULE_2__.deleteRecipe)(currentUser.recipesToCook, clickedId);
     (0,_domUpdates_js__WEBPACK_IMPORTED_MODULE_1__.displayRecipes)(currentUser.recipesToCook, "Remove Recipe");
     (0,_domUpdates_js__WEBPACK_IMPORTED_MODULE_1__.displayTags)(currentUser.recipesToCook);
   }
 });
 
-inputName.addEventListener("keydown", (event) => {
+inputName.addEventListener("keyup", (event) => {
   if (savedRecipesBtn.innerText === "View Saved Recipes") {
     const userInput = (0,_functions_js__WEBPACK_IMPORTED_MODULE_2__.getUserInput)(".input-name");
     const recipeIdsByName = (0,_functions_js__WEBPACK_IMPORTED_MODULE_2__.findRecipeByName)(userInput, recipeData);
@@ -1128,92 +1321,141 @@ inputName.addEventListener("keydown", (event) => {
   }
 });
 
-    inputIngredient.addEventListener("keydown", (event) => {
-      if (savedRecipesBtn.innerText === "View Saved Recipes") {
-        const userInput = (0,_functions_js__WEBPACK_IMPORTED_MODULE_2__.getUserInput)(".input-ingredient");
-        const recipeIdsByIngredient = (0,_functions_js__WEBPACK_IMPORTED_MODULE_2__.findRecipeByIngredient)(
-          userInput,
-          ingredientsData,
-          recipeData
-        );
-        (0,_domUpdates_js__WEBPACK_IMPORTED_MODULE_1__.displayRecipes)(recipeIdsByIngredient, "Save Recipe");
-      } else {
-        const userInput = (0,_functions_js__WEBPACK_IMPORTED_MODULE_2__.getUserInput)(".input-ingredient");
-        const recipeIdsByIngredient = (0,_functions_js__WEBPACK_IMPORTED_MODULE_2__.findRecipeByIngredient)(
-          userInput,
-          ingredientsData,
-          currentUser.recipesToCook
-        );
-        (0,_domUpdates_js__WEBPACK_IMPORTED_MODULE_1__.displayRecipes)(recipeIdsByIngredient, "Remove Recipe");
-      }
-    });
-
-    tagButtons.addEventListener("click", (event) => {
-      let tagClicked;
-      tagClicked = event.target.id;
-      if (event.target === savedRecipesBtn) {
-        const filteredRecipeIDByTag = (0,_functions_js__WEBPACK_IMPORTED_MODULE_2__.returnFilteredTag)(recipeData, tagClicked);
-        (0,_domUpdates_js__WEBPACK_IMPORTED_MODULE_1__.displayRecipes)(filteredRecipeIDByTag, "Remove Recipe");
-      } else if (tagClicked !== '' && savedRecipesBtn.innerHTML !== 'View All') {
-        const filteredRecipeIDByTag = (0,_functions_js__WEBPACK_IMPORTED_MODULE_2__.returnFilteredTag)(recipeData, tagClicked);
-        (0,_domUpdates_js__WEBPACK_IMPORTED_MODULE_1__.displayRecipes)(filteredRecipeIDByTag, "Save Recipe");
-      } else if (tagClicked !== '' && savedRecipesBtn.innerHTML === 'View All') {
-        const filteredRecipeIDByTag = (0,_functions_js__WEBPACK_IMPORTED_MODULE_2__.returnFilteredTag)(
-          currentUser.recipesToCook,
-          tagClicked
-        );
-        (0,_domUpdates_js__WEBPACK_IMPORTED_MODULE_1__.displayRecipes)(filteredRecipeIDByTag, "Remove Recipe");
-      }
-    });
-
-recipeDisplay.addEventListener("click", (event) => {
-  let idClicked;
-  idClicked = event.target.id;
-  if (idClicked.length === 6) {
-    const directions = (0,_functions_js__WEBPACK_IMPORTED_MODULE_2__.returnRecipeDirections)(recipeData, idClicked);
-    const cost = (0,_functions_js__WEBPACK_IMPORTED_MODULE_2__.returnRecipeCost)(recipeData, ingredientsData, idClicked);
-    modalCost.innerText = `Estimated Cost of Ingredients: $${cost}`;
-    const ingredients = (0,_functions_js__WEBPACK_IMPORTED_MODULE_2__.returnIngredientNames)(
-      recipeData,
+inputIngredient.addEventListener("keyup", (event) => {
+  if (savedRecipesBtn.innerText === "View Saved Recipes") {
+    const userInput = (0,_functions_js__WEBPACK_IMPORTED_MODULE_2__.getUserInput)(".input-ingredient");
+    const recipeIdsByIngredient = (0,_functions_js__WEBPACK_IMPORTED_MODULE_2__.findRecipeByIngredient)(
+      userInput,
       ingredientsData,
-      idClicked
+      recipeData
     );
-    const title = (0,_functions_js__WEBPACK_IMPORTED_MODULE_2__.returnRecipeTitle)(recipeData, idClicked);
-    modalTitle.innerHTML = title;
-
-    const tags = (0,_functions_js__WEBPACK_IMPORTED_MODULE_2__.returnRecipeTags)(recipeData, idClicked);
-    const url = (0,_functions_js__WEBPACK_IMPORTED_MODULE_2__.returnRecipeImgUrl)(recipeData, idClicked);
-
-    let directionsHtml = "";
-    directions.forEach((directionsEl, index) => {
-      let stepNumber = index + 1;
-      directionsHtml += `<li><strong>Step${stepNumber}:</strong> ${directionsEl}</li><br>`;
-    });
-    modalDirections.innerHTML = directionsHtml;
-
-    let ingredientsHtml = "";
-    ingredients.forEach((ingredientEl) => {
-      ingredientsHtml += `<li>- ${ingredientEl}</li>`;
-    });
-    modalIngredients.innerHTML = ingredientsHtml;
-
-    let tagsHtml = "";
-    tags.forEach((tagsEl) => {
-      tagsHtml += `<li>${tagsEl}</li>`;
-    });
-    modalTags.innerHTML = tagsHtml;
-
-    modalOverlay.classList.add("open-modal");
-
-    modalContainer.style.backgroundImage = `linear-gradient(
-      rgba(15, 15, 15, 0.7),
-      rgba(15, 15, 15, 0.7)
-    ), url(${url})`;
+    (0,_domUpdates_js__WEBPACK_IMPORTED_MODULE_1__.displayRecipes)(recipeIdsByIngredient, "Save Recipe");
+  } else {
+    const userInput = (0,_functions_js__WEBPACK_IMPORTED_MODULE_2__.getUserInput)(".input-ingredient");
+    const recipeIdsByIngredient = (0,_functions_js__WEBPACK_IMPORTED_MODULE_2__.findRecipeByIngredient)(
+      userInput,
+      ingredientsData,
+      currentUser.recipesToCook
+    );
+    (0,_domUpdates_js__WEBPACK_IMPORTED_MODULE_1__.displayRecipes)(recipeIdsByIngredient, "Remove Recipe");
   }
 });
 
+tagButtons.addEventListener("click", (event) => {
+  handleTagButtonClick(event);
+});
+
+tagButtons.addEventListener("keydown", (event) => {
+  if (event.key === "Enter") {
+    handleTagButtonClick(event);
+  }
+});
+
+function handleTagButtonClick(event) {
+  let tagClicked;
+  tagClicked = event.target.id;
+
+  const clickedTag = event.target;
+
+  if (clickedTag.classList.contains("tag-btn")) {
+    const allTagButtons = tagButtons.querySelectorAll(".tag-btn");
+
+    allTagButtons.forEach((tagButton) => {
+      if (tagButton === clickedTag) {
+        clickedTag.nextSibling.classList.toggle('bold');
+        clickedTag.classList.toggle('tag-btn-active')
+      } else {
+        tagButton.nextSibling.classList.remove('bold')
+        tagButton.classList.remove('tag-btn-active')
+      }
+    });
+  }
+
+    // user clicks on view saved recipes button
+  if (clickedTag === savedRecipesBtn) {
+    const filteredRecipeIDByTag = (0,_functions_js__WEBPACK_IMPORTED_MODULE_2__.returnFilteredTag)(recipeData, tagClicked);
+    (0,_domUpdates_js__WEBPACK_IMPORTED_MODULE_1__.displayRecipes)(filteredRecipeIDByTag, "Remove Recipe");
+    // user clicks on a tag while in main display
+  } else if (clickedTag.nextSibling.classList.contains("bold") && savedRecipesBtn.innerHTML === "View Saved Recipes") {
+    const filteredRecipeIDByTag = (0,_functions_js__WEBPACK_IMPORTED_MODULE_2__.returnFilteredTag)(recipeData, tagClicked);
+    (0,_domUpdates_js__WEBPACK_IMPORTED_MODULE_1__.displayFilteredRecipes)(filteredRecipeIDByTag, currentUser.recipesToCook)
+    // user deselects tag while in view all display
+  } else if (!clickedTag.nextSibling.classList.contains("bold") && savedRecipesBtn.innerHTML === "View Saved Recipes") {
+    (0,_domUpdates_js__WEBPACK_IMPORTED_MODULE_1__.displayFilteredRecipes)(recipeData, currentUser.recipesToCook)
+    // user clicks on a tag while in view saved recipes display
+  } else if (clickedTag.nextSibling.classList.contains("bold") && savedRecipesBtn.innerHTML === "View All") {
+    const filteredRecipeIDByTag = (0,_functions_js__WEBPACK_IMPORTED_MODULE_2__.returnFilteredTag)(currentUser.recipesToCook, tagClicked);
+    (0,_domUpdates_js__WEBPACK_IMPORTED_MODULE_1__.displayFilteredRecipes)(filteredRecipeIDByTag, currentUser.recipesToCook)
+    // user deselects tag while in view saved recipes display
+  } else if (!clickedTag.nextSibling.classList.contains("bold") && savedRecipesBtn.innerHTML === "View All") {
+    (0,_domUpdates_js__WEBPACK_IMPORTED_MODULE_1__.displayFilteredRecipes)(currentUser.recipesToCook, currentUser.recipesToCook)
+  } else {
+    // no tags are selected
+    (0,_domUpdates_js__WEBPACK_IMPORTED_MODULE_1__.displayFilteredRecipes)(recipeData, currentUser.recipesToCook)
+  }
+}
+
+recipeDisplay.addEventListener("click", handleRecipeDisplayEvent);
+
+recipeDisplay.addEventListener("keydown", (event) => {
+  if (event.key === "Enter") {
+    handleRecipeDisplayEvent(event);
+  }
+});
+
+function handleRecipeDisplayEvent(event) {
+  idClicked = event.target.id;
+  console.log(idClicked)
+  if (idClicked.length === 6) {
+    createModal();
+    updateCost();
+    createCurrencyDropdown();
+    updateTitle();
+    updateDirections();
+    updateIngredients();
+    updateTags();
+  }
+}
+
 closeBtn.addEventListener("click", function () {
+  closeDropdownAndModal();
+});
+
+closeBtn.addEventListener("keydown", function (event) {
+  if (event.key === "Enter" || event.keyCode === 13) {
+    closeDropdownAndModal();
+  }
+});
+
+function closeDropdownAndModal() {
+  const currencyDropDown = document.querySelector("#currencies-dropdown");
+  const currencyLabel = document.querySelector(".choose-currency");
+  if (currencyDropDown && currencyLabel) {
+    currencyDropDown.remove();
+    currencyLabel.remove();
+  }
+
   modalOverlay.classList.remove("open-modal");
+}
+
+modalOverlay.addEventListener("click", (event) => {
+  const currencyDropDown = document.querySelector("#currencies-dropdown");
+  const currencyLabel = document.querySelector(".choose-currency");
+  if (event.target.id === "modal-overlay") {
+  modalOverlay.classList.remove("open-modal");
+  currencyDropDown.remove();
+  currencyLabel.remove();
+ }
+});
+
+document.addEventListener("keydown", (event) => {
+  const currencyDropDown = document.querySelector("#currencies-dropdown");
+  const currencyLabel = document.querySelector(".choose-currency");
+  if (event.key === "Escape") {
+    modalOverlay.classList.remove("open-modal");
+    currencyDropDown.remove();
+    currencyLabel.remove();
+  }
 });
 
 Promise.all([_apiCalls__WEBPACK_IMPORTED_MODULE_22__.fetchUsers, _apiCalls__WEBPACK_IMPORTED_MODULE_22__.fetchIngredients, _apiCalls__WEBPACK_IMPORTED_MODULE_22__.fetchRecipes]).then(
@@ -1227,6 +1469,111 @@ Promise.all([_apiCalls__WEBPACK_IMPORTED_MODULE_22__.fetchUsers, _apiCalls__WEBP
     createRandomUser(usersData);
   }
 );
+
+function createModal() {
+  const url = (0,_functions_js__WEBPACK_IMPORTED_MODULE_2__.returnRecipeImgUrl)(recipeData, idClicked);
+
+  modalOverlay.classList.add("open-modal");
+
+  modalOverlay.id = "modal-overlay";
+
+  modalContainer.style.backgroundImage = `linear-gradient(
+    rgba(15, 15, 15, 0.7),
+    rgba(15, 15, 15, 0.7)
+  ), url(${url})`;
+}
+
+function updateCost() {
+  const cost = (0,_functions_js__WEBPACK_IMPORTED_MODULE_2__.returnRecipeCost)(recipeData, ingredientsData, idClicked);
+  modalCost.innerText = `Estimated Cost of Ingredients: ${cost} USD`;
+}
+
+function updateTitle() {
+  const title = (0,_functions_js__WEBPACK_IMPORTED_MODULE_2__.returnRecipeTitle)(recipeData, idClicked);
+  modalTitle.innerHTML = title;
+}
+
+function updateDirections() {
+  const directions = (0,_functions_js__WEBPACK_IMPORTED_MODULE_2__.returnRecipeDirections)(recipeData, idClicked);
+  let directionsHtml = "";
+  directions.forEach((directionsEl, index) => {
+    let stepNumber = index + 1;
+    directionsHtml += `<li><strong>Step ${stepNumber}:</strong> ${directionsEl}</li><br>`;
+  });
+  modalDirections.innerHTML = directionsHtml;
+}
+
+function updateIngredients() {
+  const ingredients = (0,_functions_js__WEBPACK_IMPORTED_MODULE_2__.returnIngredientNames)(
+    recipeData,
+    ingredientsData,
+    idClicked
+  );
+
+  let ingredientsHtml = "";
+  ingredients.forEach((ingredientEl) => {
+    ingredientsHtml += `<li><input type="checkbox" id="ing-checkbox"> ${ingredientEl}</li>`;
+  });
+  modalIngredients.innerHTML = ingredientsHtml;
+}
+
+function updateTags() {
+  const tags = (0,_functions_js__WEBPACK_IMPORTED_MODULE_2__.returnRecipeTags)(recipeData, idClicked);
+  let tagsHtml = "";
+  tags.forEach((tagsEl) => {
+    tagsHtml += `<li><img src="/images/${tagsEl}.png" alt="${tagsEl}" style="width: 30px; height: 30px;">  ${tagsEl}</li><br>`;
+  });
+  modalTags.innerHTML = tagsHtml;
+}
+
+function createCurrencyDropdown() {
+  const currencyDropDown = document.createElement("div");
+  currencyDropDown.innerHTML = `<label for="currencies" class="choose-currency">Choose a currency: </label>
+    <select tabindex="0" name="currencies" class="currencies-dropdown" id="currencies-dropdown">
+      <option value="USD">Choose Currency</option>
+      <option value="usd">🇺🇸 USD</option>
+      <option value="cad">🇨🇦 CAD</option>
+      <option value="eur">🇪🇺 EUROS</option>
+      <option value="jpy">🇯🇵 JAPANESE YEN</option>
+    </select>`;
+  modalCost.insertAdjacentElement("afterend", currencyDropDown);
+  
+  const selectMenu = document.querySelector("#currencies-dropdown");
+  selectMenu.focus();
+}
+
+
+document.addEventListener("change", (event) => {
+  if (event.target.classList.contains("currencies-dropdown")) {
+    const selectedCurrencyId = event.target.value;
+    const costSelected = (0,_functions_js__WEBPACK_IMPORTED_MODULE_2__.returnRecipeCost)(
+      recipeData,
+      ingredientsData,
+      idClicked
+    );
+    const convertedCost = returnUpdatedCost(selectedCurrencyId, costSelected);
+    modalCost.innerText = `Estimated Cost of Ingredients: ${convertedCost} ${selectedCurrencyId.toUpperCase()}`;
+  }
+});
+
+function returnUpdatedCost(currencySelected, costSelected) {
+  if (currencySelected === "usd") {
+    const usdCost = costSelected * fetchedUsd;
+    return Math.round(usdCost);
+  } else if (currencySelected === "cad") {
+    const cadCost = costSelected * fetchedCad;
+    return Math.round(cadCost);
+  } else if (currencySelected === "eur") {
+    const eurCost = costSelected * fetchedEuro;
+    return Math.round(eurCost);
+  } else if (currencySelected === "jpy") {
+    const yenCost = costSelected * fetchedYen;
+    return Math.round(yenCost);
+  } else {
+    const usdCost = costSelected * fetchedUsd;
+    return Math.round(usdCost);
+  }
+}
 
 })();
 
