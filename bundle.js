@@ -1529,7 +1529,7 @@ function updateTags() {
   const tags = (0,_functions_js__WEBPACK_IMPORTED_MODULE_2__.returnRecipeTags)(recipeData, idClicked);
   let tagsHtml = "";
   tags.forEach((tagsEl) => {
-    tagsHtml += `<li><img src="/images/${tagsEl}.png" alt="${tagsEl}" style="width: 30px; height: 30px;">  ${tagsEl}</li><br>`;
+    tagsHtml += `<li><img src="https://joh-ann.github.io/whats-cookin/images/${tagsEl}.png" alt="${tagsEl}" style="width: 30px; height: 30px;">  ${tagsEl}</li><br>`;
   });
   modalTags.innerHTML = tagsHtml;
 }
