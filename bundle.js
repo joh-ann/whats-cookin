@@ -469,7 +469,7 @@ function displayTags(recipes) {
   const tags = (0,_src_functions_js__WEBPACK_IMPORTED_MODULE_0__.returnListOfUniqueTags)(recipes);
   let tagsHtml = "";
   tags.forEach((tagEl) => {
-    tagsHtml += `<div><img tabindex="0" class="tag-btn" alt="${tagEl}" id="${tagEl}" src="https://joh-ann.github.io/whats-cookin/images/${tagEl}.png"><p>${tagEl}</p></div>
+    tagsHtml += `<div><img tabindex="0" class="tag-btn" alt="${tagEl}" id="${tagEl}" src="/images/${tagEl}.png"><p>${tagEl}</p></div>
     `;
   });
   tagButtons.innerHTML = tagsHtml;
@@ -949,7 +949,7 @@ function fetchCurrencies() {
     });
 }
 
-const fetchUsers = fetch("https://whats-cookin-api-ten.vercel.app/api/v1/users")
+const fetchUsers = fetch("http://localhost:3001/api/v1/users")
   .then((response) => {
     if(!response.ok) {
       throw new Error(`Fetch failed with status: ${response.status}`);
@@ -965,7 +965,7 @@ const fetchUsers = fetch("https://whats-cookin-api-ten.vercel.app/api/v1/users")
   });
 
 const fetchIngredients = fetch(
-  "https://whats-cookin-api-ten.vercel.app/api/v1/ingredients"
+  "http://localhost:3001/api/v1/ingredients"
 )
   .then((response) => {
     if (!response.ok) {
@@ -981,7 +981,7 @@ const fetchIngredients = fetch(
     throw error;
   })
 
-  const fetchRecipes = fetch("https://whats-cookin-api-ten.vercel.app/api/v1/recipes")
+  const fetchRecipes = fetch("http://localhost:3001/api/v1/recipes")
   .then((response) => {
     if (!response.ok) {
       throw new Error(`Fetch failed with status: ${response.status}`);
@@ -997,7 +997,7 @@ const fetchIngredients = fetch(
   });
 
 function sendPostRequest(currentUser, clickedRecipe) {
-  return fetch("https://whats-cookin-api-ten.vercel.app/api/v1/usersRecipes", {
+  return fetch("http://localhost:3001/api/v1/usersRecipes", {
     method: 'POST',
     body: JSON.stringify({
       userID: currentUser.id,
@@ -1021,7 +1021,7 @@ function sendPostRequest(currentUser, clickedRecipe) {
 }
 
 function sendDeleteRequest(currentUser, clickedRecipe) {
-  return fetch("https://whats-cookin-api-ten.vercel.app/api/v1/usersRecipes", {
+  return fetch("http://localhost:3001/api/v1/usersRecipes", {
     method: 'DELETE',
     body: JSON.stringify({
       userID: currentUser.id,
@@ -1529,7 +1529,7 @@ function updateTags() {
   const tags = (0,_functions_js__WEBPACK_IMPORTED_MODULE_2__.returnRecipeTags)(recipeData, idClicked);
   let tagsHtml = "";
   tags.forEach((tagsEl) => {
-    tagsHtml += `<li><img src="https://joh-ann.github.io/whats-cookin/images/${tagsEl}.png" alt="${tagsEl}" style="width: 30px; height: 30px;">  ${tagsEl}</li><br>`;
+    tagsHtml += `<li><img src="/images/${tagsEl}.png" alt="${tagsEl}" style="width: 30px; height: 30px;">  ${tagsEl}</li><br>`;
   });
   modalTags.innerHTML = tagsHtml;
 }
