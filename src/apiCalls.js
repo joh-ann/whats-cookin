@@ -47,7 +47,7 @@ export const fetchUsers = fetch("https://whats-cookin-api-jd.vercel.app/api/v1/u
   });
 
 export const fetchIngredients = fetch(
-  "http://localhost:3001/api/v1/ingredients"
+  "https://whats-cookin-api-jd.vercel.app/api/v1/ingredients"
 )
   .then((response) => {
     if (!response.ok) {
